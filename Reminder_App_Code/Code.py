@@ -17,7 +17,7 @@ def initialize_session_state():
         st.session_state.messages = []
 
 def main():
-    st.title("Simple Chatbot")
+    st.title("Start Typing for a Reminder")
     
     initialize_session_state()
 
